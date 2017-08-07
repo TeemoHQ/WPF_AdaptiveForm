@@ -1,0 +1,2 @@
+F:\智慧分诊大屏\Triage\Triage\bin\Debug\WaitingRoomBiggerScreen.exe.config
+F:\智慧分诊大屏\Triage\Triage\bin\Debug\WaitingRoomBigScreen.exe.config

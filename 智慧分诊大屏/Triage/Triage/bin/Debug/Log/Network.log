@@ -1,0 +1,123 @@
+[2017-02-07 16:31:08,892][10][INFO ][Network] [1] [] Send: {"deviceMac":"22:F7:72:44:0C:F5","serviceUrl":""}
+[2017-02-07 16:31:38,127][10][INFO ][Network] [1] [] Elapsed:27707ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1486456274877,"timeConsum":0}
+[2017-02-07 16:31:38,284][10][WARN ][Network] [1] [] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
+[2017-02-07 16:37:35,278][9][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-07 16:38:46,727][9][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-07 16:54:44,453][8][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-07 16:54:44,600][8][INFO ][Network] [1] [device/initDevice] Elapsed:138ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1486457685778,"timeConsum":0}
+[2017-02-07 16:54:44,671][8][WARN ][Network] [1] [device/initDevice] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
+[2017-02-07 17:33:03,826][9][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-07 17:33:04,173][9][INFO ][Network] [1] [device/initDevice] Elapsed:305ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1486459985232,"timeConsum":0}
+[2017-02-07 17:33:04,350][9][WARN ][Network] [1] [device/initDevice] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
+[2017-02-08 09:55:25,154][9][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-08 09:55:38,029][9][INFO ][Network] [1] [device/initDevice] Elapsed:12852ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1486518925574,"timeConsum":0}
+[2017-02-08 09:55:38,189][9][WARN ][Network] [1] [device/initDevice] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
+[2017-02-08 10:01:57,644][10][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-08 10:02:14,633][10][INFO ][Network] [1] [device/initDevice] Elapsed:16981ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1486519317991,"timeConsum":0}
+[2017-02-08 10:02:14,706][10][WARN ][Network] [1] [device/initDevice] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
+[2017-02-08 10:03:32,614][9][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-08 10:04:32,061][8][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-08 10:04:32,213][8][INFO ][Network] [1] [device/initDevice] Elapsed:144ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1486519472401,"timeConsum":0}
+[2017-02-08 10:04:32,295][8][WARN ][Network] [1] [device/initDevice] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
+[2017-02-08 10:05:22,154][9][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"22:F7:72:44:0C:F5"}
+[2017-02-08 10:05:22,290][9][INFO ][Network] [1] [device/initDevice] Elapsed:128ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1486519522502,"timeConsum":0}
+[2017-02-08 10:05:22,367][9][WARN ][Network] [1] [device/initDevice] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
+[2017-04-26 11:58:23,456][9][INFO ][Network] [1] [device/initDevice] Send: {"serviceUrl":"device/initDevice","deviceMac":"00:50:56:C0:00:08"}
+[2017-04-26 11:58:23,888][9][INFO ][Network] [1] [device/initDevice] Elapsed:405ms Recv: {"success":false,"resultCode":"1000","msg":"mac 地址参数错误","data":null,"startTime":1493179112492,"timeConsum":0}
+[2017-04-26 11:58:24,017][9][WARN ][Network] [1] [device/initDevice] Exception: Error converting value {null} to type 'System.Boolean'. Path 'data', line 1, position 67.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 WaitingRoomBigScreen.WebService.DataHandler.<Query>d__14`2.MoveNext() 位置 F:\智慧分诊大屏\Triage\Triage\WebService\DataHandler.cs:行号 68
